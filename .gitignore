@@ -1,0 +1,46 @@
+# 第三方代码
+hub/
+
+# 视频文件（太大不上传）
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.flv
+*.wmv
+
+# 中间产物和临时文件
+processing_segments/
+video_segments/
+temp_*/
+*.txt
+debug_masks*/
+
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 环境和IDE
+.env
+.venv
+env/
+venv/
+.idea/
+.vscode/
+*.swp
+*.swo
+*.sh
+
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 日志文件
+*.log
